@@ -67,7 +67,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-.hero-btn {
+.hero-button {
     color: #FFF;
     background-color: #4D5AE5;
     font-size: 16;
@@ -77,8 +77,13 @@ a {
     cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {color: #404BBF}
+.hero-button:hover {
+        color: #404BBF
+    }
+
+.hero-button:focus {
+        color: #404BBF
+    }
 
 .features-title {
         color: #2e2f42;
