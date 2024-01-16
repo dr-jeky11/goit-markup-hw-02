@@ -57,7 +57,7 @@ a {
 .contacts:focus {color: #404bbf}
 
 .hero {background-color: #2E2F42;}
-   
+
 .hero-title {
     color: #FFF; 
     text-align: center;
@@ -78,4 +78,19 @@ a {
 }
 
 .hero-button:hover,
-.hero-button:focus {#404BBF}
+.hero-button:focus {color: #404BBF}
+
+.features-title {
+        color: #2e2f42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;  
+}
+
+.features-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
