@@ -78,13 +78,8 @@ a {
     cursor: pointer;
 }
 
-.hero-button:hover {
-        color: #404BBF
-    }
-
-.hero-button:focus {
-        color: #404BBF
-    }
+.hero-button:hover,
+.hero-button:focus {color: #404BBF}
 
 .features-title {
         color: #2e2f42;
