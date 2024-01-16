@@ -1,0 +1,67 @@
+body {
+    font-family: "Roboto", "Raleway", sans-serif;
+    color: #434455;
+}
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+}
+
+.head-logo-web {
+    color: #4D5AE5;
+    font-family: "Raleway";
+    font-size: 18;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.head-logo-studio {
+    color: #2E2F42;
+    font-family: "Raleway";
+    font-size: 18;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.navigation-item {
+    color: #2E2F42;
+    font-size: 16;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts {
+    font-size: 16;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.hero {
+    color: #FFF;
+    background: #2E2F42;
+    text-align: center;
+    font-size: 56;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    color: #FFF;
+    background: #2E2F42;
+    font-size: 16;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
