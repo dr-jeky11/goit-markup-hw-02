@@ -56,11 +56,12 @@ a {
 .contacts:hover,
 .contacts:focus {color: #404bbf}
 
-.hero {
-    color: #FFF;
-    background: #2E2F42;
+.hero {background-color: #2E2F42;}
+   
+.hero-title {
+    color: #FFF; 
     text-align: center;
-    font-size: 56;
+    font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -68,9 +69,13 @@ a {
 
 .hero-button {
     color: #FFF;
-    background: #2E2F42;
+    background-color: #4D5AE5;
     font-size: 16;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
+
+.hero-button:hover,
+.hero-button:focus {#404BBF}
