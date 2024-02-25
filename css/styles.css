@@ -81,6 +81,18 @@ a {
 .hero-button:hover,
 .hero-button:focus {background-color: #404BBF}
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+}
+
 .features-title {
         color: #2e2f42;
         font-size: 20px;
@@ -96,7 +108,8 @@ a {
     letter-spacing: 0.02em;
 }
 
-.team {background-color: #F4F4FD;}
+.team {background-color: #F4F4FD;
+}
 
 .team-title {
     color: #2E2F42;
@@ -105,7 +118,8 @@ a {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize;}
+    text-transform: capitalize;
+}
 
 .team-item {background-color: #FFFFFF;}
 
@@ -165,4 +179,5 @@ a {
 .hell-text {
     color: var(--CLOUD, #F4F4FD);
     line-height: 1.5;
-    letter-spacing: 0.02em;}
+    letter-spacing: 0.02em;
+}
